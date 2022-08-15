@@ -1,0 +1,95 @@
+body {
+  background-image: url(./img/pixelart.gif);
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  position: fixed;
+}
+
+h1 {
+  position: relative;
+  left: 54%;
+  font-size: 50px;
+  color: red;
+  text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow, 0 0 50px yellow;
+}
+
+form {
+  position: absolute;
+  width: 200px;
+  margin: 20px; 
+  left: 67%;
+  bottom: 27%;
+  z-index: 2;
+}
+
+input{
+  font-size: 20px;
+  box-sizing: border-box;
+
+  font-size: large;
+  font-weight: 500;
+}
+
+.card-data {
+  position: absolute;
+  left: 69%;
+  bottom: 150px;
+  font-size: large;
+  font-weight: 900;
+  z-index: 1;
+}
+
+.container-data {
+  width: 100%;
+}
+
+.pokedex-img {
+  width: 1000px;
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.shadow-img {
+  position: relative;
+  width: 22%;
+  left: 6%;
+  margin-top: 12%;
+  background-color: white;
+  z-index: -2;
+}
+
+.sprite-img {
+  position: relative;
+  width: 350px;
+  left: -250px;
+  top: 50px;
+}
+
+.poke-stats {
+  position: absolute;
+  bottom: 9%;
+  left: 22%;
+  padding: 5px;
+  background-color: white;
+  font-weight: 900;
+}
+
+.poke-types {
+  position: absolute;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: space-between;
+  left: 39%;
+  bottom: -32%;
+  z-index: 1;
+  font-weight: 900;
+}
+
+.id {
+  bottom: 120px;
+}
